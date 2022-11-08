@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +10,29 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-.container{
 
+
+.container {
     width: 336px;
-    height:236px;
+    height: 250px;
     border: 1px solid #C4C4C4;
-   border-radius: 10px;
-   
-   
-   
-   
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 200px;
 }
-.word h1{
+
+.yellow{
+    width: 100%;
+    height:28px;
+    background-color: #FFDC40;
+    border-radius: 10px 10px 0 0;
+}
+
+.word h1 {
     width: 198px;
     height: 34px;
-    margin-left:580px;
-    margin-top: 200px;
+    margin-left: 70px;
+    margin-top: 15px;
     font-weight: 900;
     font-size: 26px;
     line-height: 30px;
@@ -30,23 +40,49 @@
     text-transform: capitalize;
     color: #000000;
 }
-.write{
+
+img{
+    margin-left: 270px;
+    margin-top: 20px;
+    color: #C4C4C4;
+}
+
+.write {
     box-sizing: border-box;
     width: 286px;
     height: 40px;
-    margin-left: 537px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
     border: 1px solid #C4C4C4;
-    border-radius:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.buttoninput{
+
+label img{
+    position: absolute;
+    margin-left: -50px;
+}
+
+h3{
+    color: #FFFFFF;
+    background-color: #AA68FE;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 91px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buttoninput {
     width: 150px;
-    height: 42px;
-    margin-left:600px;
-    margin-top: 20px;
+    height: 45px;
+    margin-left: 100px;
     background: #833AE0;
     border-radius: 71px;
-    color:white;
+    color: white;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
