@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <title>My Project</title>
 </head>
-
 <body>
     <div class="container">
-        <div class="yellow"></div>
-        <div class="word">
-            <h1>To-Do List</h1>
-        </div>
-        <img src="./picture/Group 74.png" alt="arrow.png">
-        <label>
-            <input class="write" name="firstname" type="text" required>
-            <img src="./picture/Group 77 (1).png" alt="photo.png">
-        </label>
-        <br>
-        <a href="">
-            <h3>+</h3>
-            <button type="button" class="buttoninput">Добавить</i></button>
-        </a>
+  <div class="color"></div>
+  <div class="word">
+    <h1>To-Do List</h1>
+</div>
+<div class="arrow" onclick="sortListDir()">
+   <img class="photo" src="./picture/Group 73 (1).png" alt="photo.png">
+</div>
+<div class="main">
+    <div id="inputcol" class="textarea">
+        <input type="text" name="firstname" id="enter" class="loft">
+        <div class="photo1"><img src="./Group 52 (1).png" alt="photo.png"></div>
     </div>
+    <div id="main2">
+        <li class="header"></li>
+       <div class="photo1remove"> <img src="./Group 52 (1).png" alt="photo.png" ></div>
+    </div>
+</div>
+<div class="button">
+    <button class="buttons">
+        <span class="plus">+</span>
+        <span class="add">Добавить</span>
+    </button>
+</div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
