@@ -77,7 +77,6 @@ addbutton.addEventListener("click",()=>{
     }
 })
 })
-
 function sortArray() {
   var i, switching, b, shouldSwitch, dir, switchcount = 0;
   switching = true;
@@ -156,7 +155,6 @@ let  number = document.getElementById("enter")
         }
     }
 })
-
 new Sortable(tasksbox, {
 animation: 200,
 });
