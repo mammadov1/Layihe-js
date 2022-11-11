@@ -11,7 +11,7 @@ let inpClone = inpNode.cloneNode(true)
 
 function onSubmit() {
 	e.preventDefault();
-	const inputField = document.getElementById('enter');
+	const inputField = document.getElementById('button');
 	addTask(inputField.value);
 	form.reset();
 };
@@ -131,6 +131,7 @@ function onSubmit() {
 	const inputField = document.getElementById('enter');
 	addTask(inputField.value);
 	form.reset();
+
 };
 let  number = document.getElementById("enter")
     number.addEventListener("keypress",(event)=>{
