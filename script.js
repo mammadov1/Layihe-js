@@ -1,11 +1,21 @@
 let addbutton = document.querySelector(".buttons")
 let inpNode = document.querySelector("#inputdiv")
+const form = document.getElementById('task-form');
 
 let sortimage = document.querySelector(".sortimage")
 let tasksbox = document.querySelector(".tasks")
 
 let inpDel = document.querySelector(".removeinp");
 let inpClone = inpNode.cloneNode(true)
+
+
+function onSubmit() {
+	e.preventDefault();
+	const inputField = document.getElementById('enter');
+	addTask(inputField.value);
+	form.reset();
+};
+
 
 inpDel.addEventListener("click",()=>{
     document.getElementById("enter").value = ""
@@ -115,6 +125,13 @@ function sortArray() {
     }
   }
 }
+
+function onSubmit() {
+	e.preventDefault();
+	const inputField = document.getElementById('enter');
+	addTask(inputField.value);
+	form.reset();
+};
 let  number = document.getElementById("enter")
     number.addEventListener("keypress",(event)=>{
     if(event.key === 'Enter'){
